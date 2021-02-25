@@ -4,7 +4,7 @@ import torch
 class VAE(torch.nn.Module):
     def __init__(self, **kwargs):
         super(VAE, self).__init__()
-        self.hidden_size   = 16
+        self.hidden_size   = 64
         self.latent_size   = 2
         self.alphabet_size = kwargs['alphabet_size']
         self.seq_len       = kwargs['seq_len']

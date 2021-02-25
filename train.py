@@ -52,9 +52,9 @@ for epoch in range(32):
     stats['cor'].append(np.abs(cor))
 
     to_print = [
-        f"{c.HEADER}EPOCH %03d"        % epoch,
-        f"{c.OKBLUE}RL=%4.4f"          % stats['rl'][-1], 
-        f"{c.OKGREEN}KL=%4.4f"         % stats['kl'][-1], 
+        f"{c.HEADER}EPOCH %03d"          % epoch,
+        f"{c.OKBLUE}RL=%4.4f"            % stats['rl'][-1], 
+        f"{c.OKGREEN}KL=%4.4f"           % stats['kl'][-1], 
         f"{c.OKCYAN}|rho|=%4.4f{c.ENDC}" % stats['cor'][-1]
     ]
     print(" ".join(to_print))
