@@ -21,6 +21,6 @@ When you are comfortable with the data and the problem, consider working on the 
 * Sequence weighting (Fix overrepresentation in the dataset)
 
 #### Other ideas
-* Differnet VAE architecture (eg. Hierarchical VAE)
+* Different VAE architecture (eg. Hierarchical VAE)
 * Compare to a GPLVM model
 * Bayesian Optimization in the latent space.
